@@ -1,0 +1,212 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+/*navbar*/
+
+.text{
+    color: red;
+}
+.nav-link {
+    margin-left: 30px;
+    color: white;
+}
+.text2{
+    color: white;
+}
+.nav-link{
+    color: white !important;
+}
+
+.nav-link:hover{
+     border: 1px solid black;
+     color: white;
+     background-color: red;
+     border-radius: 30px;
+     
+
+}
+.bi bi-search{
+        background-color: white;
+}
+.searchlabel{
+    color: black;
+    padding: 3px;
+    border-radius: 30px;
+}
+input{
+    border-radius: 30px;
+}
+.searchlabel:hover{
+    color: white;
+     background-color: red;
+}
+.navbar-toggler-icon{
+    background-color: white;
+    font-size: 20px;
+    color: white;
+}
+/*media query for search button*/
+@media(max-width:472px){
+    input{
+        right: 0;
+        left: 0;
+        width: 300px;
+    }  
+
+}
+@media(max-width:410px){
+    input{
+        right: 0;
+        left: 0;
+        width: 220px;
+    }  
+
+}
+
+@media(max-width:310px){
+    input{
+        right: 0;
+        left: 0;
+        width: 150px;
+    }  
+
+}
+@media(max-width:265px){
+    
+    .navbar-toggler{
+        float: left;
+    }
+        
+}
+@media(max-width:259px){
+    input{
+        right: 0;
+        left: 0;
+        width: 80px;
+    }  
+
+}
+@media(max-width:222px){
+    
+    input{
+    
+        padding: top 5px;;
+    } 
+        
+}
+@media(max-width:327px){
+    
+    input{
+    
+        width: 150px
+    } 
+        
+}
+@media(max-width:257px){
+    
+    input{
+    
+        width: 100px
+        
+    } 
+   
+        
+}
+
+/*homepage*/
+.homeimage{
+    border-radius: 50px;
+}
+.homeparagraph{
+    color: white;
+    border-right: 3px solid white;
+
+}
+.homeparagraph{
+    margin-top: 150px;
+    font-family: 'DynaPuff', cursive;
+font-family: 'Josefin Sans', sans-serif;
+}
+.homeimage{
+    margin-top: 100px;
+}
+.hometext1{
+    font-size: 30px;
+}
+.hometext2{
+    font-size: 50px;
+}
+.hometext3{
+    font-size: 30px;
+}
+.head{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 140px;
+    
+}
+
+/*about*/
+.abouttext{
+    color: white;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif; 
+    margin-top: 40px;
+}
+.sendparagraph{
+    color: white;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif; 
+    margin-top: 40px;
+    text-align: justify;
+}
+.work1{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.fooddelivery{
+    color: black;
+    font-family: 'Anton', sans-serif;
+    
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Rubik Dirt', cursive;
+    
+
+}
+.link{
+    color: black;
+    cursor: pointer;
+}
+.watchfactories{
+    color: white;
+    font-family: 'Anton', sans-serif;
+    
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Rubik Dirt', cursive;
+}
+.linkwatch{
+    color: white;
+    cursor: pointer;
+}
+
+.bgcolore{
+    background:linear-gradient(to right,red,black) !important;
+    color: white;
+    transition: all 1s;
+
+}
+.colorechangetext{
+    color: white !important;
+}
+.fullscrenn{
+    background:linear-gradient(to top,gray,black)
+}
